@@ -1,0 +1,77 @@
+.login-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/fondo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* CARD MÁS ANCHA Y MODERNA */
+.login-card {
+  width: 100%;
+  max-width: 600px; // 🔥 más ancho
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* LOGO */
+.div-logo {
+  margin-bottom: 10px;
+}
+
+.logo-login {
+  width: 120px;
+}
+
+/* TÍTULO */
+.title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* FORMULARIO */
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+
+    &:focus {
+      border-color: #2c7be5;
+    }
+  }
+}
+
+/* BOTÓN */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #2c7be5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background: #1a5fd1;
+  }
+}

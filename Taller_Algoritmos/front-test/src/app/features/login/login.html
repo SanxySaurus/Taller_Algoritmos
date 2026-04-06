@@ -1,0 +1,33 @@
+<div class="login-background">
+  <div class="login-card">
+
+    <div class="div-logo">
+      <img src="images/UCES.svg" alt="Universidad CES" class="logo-login" />
+    </div>
+
+    <h2 class="title">Iniciar Sesión</h2>
+
+    <form>
+      <div class="form-group">
+        <label>Usuario</label>
+        <input type="text" placeholder="Ingresa tu usuario" [(ngModel)]="usuario" name="usuario" />
+      </div>
+
+      <div class="form-group">
+        <label>Contraseña</label>
+        <input type="password" placeholder="Ingresa tu contraseña" [(ngModel)]="password" name="password" />
+      </div>
+
+      <!-- Campo extra opcional -->
+      <div class="form-group">
+        <label>Correo (opcional)</label>
+        <input type="email" placeholder="ejemplo@correo.com" />
+      </div>
+
+      <button type="button" (click)="login()" class="btn-login">
+        Ingresar
+      </button>
+    </form>
+
+  </div>
+</div>
